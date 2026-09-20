@@ -21,10 +21,10 @@
     // User Settings --> My Account
     .accountProfileCard__1fed1 {
         background-color: var(--background-base-low);
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
 
         .background__1fed1 {
-            border: 1px solid var(--border-subtle);
+            border: 0px solid transparent;
             background-color: var(--background-base-lowest);
             .fieldList__1fed1 {
                 background-color: var(--background-base-lowest);
@@ -34,14 +34,14 @@
 
     // User Settings --> Content & Social
     .emptyContainer_de8069 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
     }
     .card__5cea9 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
 
         .header__5cea9 {
-            border-bottom: 1px solid var(--border-muted);
+            border-bottom: 0px solid transparent;
             background-color: var(--background-base-low);
         }
     }
@@ -54,22 +54,22 @@
 
     // User Settings --> Authorized Apps
     .headerV2__50a54 {
-        border-bottom: 1px solid var(--border-muted);
+        border-bottom: 0px solid transparent;
         background-color: var(--background-base-low);
     }
     .authedAppV2__50a54 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-lower);
     }
 
     // User Settings --> Connections
     .connection_c7f964 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
 
         .metadataContainer_c7f964,
         .integrationWrapper_c7f964 {
-            border: 1px solid var(--border-muted);
+            border: 0px solid transparent;
             background-color: var(--background-base-lowest);
         }
     }
@@ -77,11 +77,11 @@
     // User Settings --> Nitro
     .expandedProgressBarContainerSettingsPage_a61c56,
     .giftCard_a45ed3 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
     }
     .perkCard_b62c4e {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
     }
     .rowBottomBorder_e4ef5c {
@@ -90,7 +90,7 @@
 
     // User Settings --> Server Boost
     .appliedBoostContainer_ceb06a {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
 
         .boostContainerSeparator_ceb06a {
@@ -102,7 +102,7 @@
         }
 
         .guildContainer__5dba5:not(.recommendedServerCard__51537) {
-            border-bottom: 1px solid var(--border-muted);
+            border-bottom: 0px solid transparent;
         }
     }
     .wave__8e08c {
@@ -111,11 +111,11 @@
     .guildContainer__5dba5 {
         background-color: var(--background-base-low);
         &.recommendedServerCard__51537 {
-            border: 1px solid var(--border-muted);
+            border: 0px solid transparent;
         }
     }
     .wrapper__5b98e {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
 
         .list__5b98e {
@@ -128,15 +128,15 @@
 
     // User Settings --> Subscriptions
     .detailsBlock_e335a7 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
     }
     .accountCreditsContainer__94f72 .accountCreditRow__94f72:not(:last-child) {
-        border-bottom: 1px solid var(--border-muted);
+        border-bottom: 0px solid transparent;
     }
     .fractionalPremiumAccountCredit__94f72,
     .premiumSubscriptionAccountCredit__94f72 {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
     }
     .fractionalTimeRemainingRow__94f72 {
@@ -162,7 +162,7 @@
     }
     .container_a1d343 {
         background-color: var(--background-base-low);
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
     }
 
     // User Settings --> Accessibility
@@ -201,11 +201,11 @@
     // User Settings --> Registered Games
     .notDetected_cc46f0 {
         background-color: var(--background-surface-high);
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
     }
     .game_cc46f0 {
         background-color: var(--background-base-low);
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
     }
 
     // Guild Settings --> Boost Perks
@@ -245,7 +245,7 @@
     }
     .header__99871 {
         background-color: var(--background-base-low);
-        border-bottom: 1px solid var(--border-muted);
+        border-bottom: 0px solid transparent;
     }
     .container__99871 {
         background-color: var(--background-base-lower);
@@ -270,17 +270,17 @@
     .notice_a9b452,
     .review_a9b452 {
         background-color: var(--background-base-low);
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
     }
     .onboardingStepContainer__28e57 {
-        border-left: 1px solid var(--border-subtle);
-        border-right: 1px solid var(--border-subtle);
+        border-left: 0px solid transparent;
+        border-right: 0px solid transparent;
         &:last-child {
-            border-bottom: 1px solid var(--border-subtle);
+            border-bottom: 0px solid transparent;
         }
     }
     .container__5d756 {
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
     }
     .example__5d756 {
         background-color: var(--background-surface-high);
@@ -298,25 +298,25 @@
     .howItWorksContainer_dd30dc,
     .creatorBenefitCard__02e4c,
     .guildCard__2485e {
-        border: 1px solid var(--border-muted);
+        border: 0px solid transparent;
         background-color: var(--background-surface-high);
     }
 
     // Guild Settings --> Server Template
     .descriptionBox__981f7 {
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
         background-color: var(--background-base-low);
     }
 
     // Channel Settings --> Permissions
     .settingCard__1a4ef {
-        border: 1px solid var(--border-subtle);
+        border: 0px solid transparent;
         &.active__1a4ef {
             background-color: var(--background-base-low);
         }
     }
     .cardFolder__1a4ef:not(:empty) {
-        border-top: 1px solid var(--border-subtle);
+        border-top: 0px solid transparent;
     }
     .scroller__53543 {
         background-color: var(--background-base-lowest);

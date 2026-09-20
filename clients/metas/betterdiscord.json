@@ -1,6 +1,10 @@
 {
     "invite": "example",
     "authorId": "1546985698446544940",
+    "authorLink": "https://zachjmurphy.me",
+    "donate": "https://github.com/zacjmurphy",
+    "patreon": "https://github.com/zacjmurphy",
+    "website": "https://github.com/zacjmurphy",
     "source": "https://github.com/zacjmurphy/Amoled-Theme",
     "updateUrl": "https://github.com/zacjmurphy/Amoled-Theme/blob/main/clients/amoled-theme.theme.css"
 }

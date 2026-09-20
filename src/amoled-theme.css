@@ -1,4 +1,9 @@
 .theme-midnight {
+  --app-frame-border: transparent !important;
+  --divider-muted: transparent !important;
+  --divider-normal: transparent !important;
+  --divider-strong: transparent !important;
+  --divider-subtle: transparent !important;
   --message-background-hover: var(--opacity-8) !important;
   --background-mod-muted: var(--opacity-4) !important;
   --background-mod-normal: var(--opacity-16) !important;
@@ -76,7 +81,7 @@
 }
 .theme-midnight .container_bc0d35 {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .prompt__5d7c9 {
   background-color: var(--background-base-low);
@@ -85,7 +90,7 @@
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .profileCard__5d7c9 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 
 .theme-midnight .calendarPicker_d27f17 .react-datepicker,
@@ -109,7 +114,7 @@
   background: var(--background-base-lowest);
 }
 .theme-midnight .emptyState__7641b {
-  border-left: 1px solid var(--app-frame-border);
+  border-left: 0px solid transparent;
 }
 .theme-midnight .wrapper_f7ecac {
   background-color: var(--background-surface-high);
@@ -134,7 +139,7 @@
   background: linear-gradient(to bottom, transparent, var(--background-base-lowest) 72px, var(--background-base-lowest) 100%);
 }
 .theme-midnight .optionPill__1464f {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .optionPill__1464f .optionPillKey__1464f {
@@ -144,25 +149,25 @@
   background: var(--background-surface-high);
 }
 .theme-midnight .embedCard__44c9a {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   border-bottom: none;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .footerContainer__44492 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   background-color: var(--background-base-lower);
 }
 .theme-midnight .embedCard_b99f57 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .embedCard_b99f57 .cardFooter_b99f57 {
-  border-top: 1px solid var(--border-subtle);
+  border-top: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .bumpBox_cacd02 {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
 }
 
 .theme-midnight .container_db0ccb,
@@ -194,7 +199,7 @@
 }
 .theme-midnight .descriptionContainer_ca49a1 {
   background-color: var(--background-base-lowest);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .linkContainer_ca49a1 {
   background-color: var(--background-base-lowest);
@@ -275,10 +280,10 @@
   background-color: var(--background-surface-high);
 }
 .theme-midnight .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592 {
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 0px solid transparent;
 }
 .theme-midnight .container__664ff {
-  border-left: 1px solid var(--app-frame-border);
+  border-left: 0px solid transparent;
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .background__506d9 {
@@ -286,7 +291,7 @@
 }
 .theme-midnight .container__6b38f.pulse__6b38f {
   background-color: var(--neutral-95);
-  border: 1px solid var(--opacity-24);
+  border: 0px solid transparent;
 }
 .theme-midnight .container__6b38f.pulse__6b38f:hover {
   background-color: var(--opacity-12);
@@ -305,12 +310,12 @@
 
 .theme-midnight .accountBtnInner__750de,
 .theme-midnight .application__750de {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 
 .theme-midnight .message_fd14e0 {
   background-color: var(--background-base-lowest);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 
 .theme-midnight .aside__4d307 {
@@ -358,17 +363,17 @@
 }
 
 .theme-midnight .main_c08b38:not(.fullBorderWithGradient_c08b38) {
-  border-top: 1px solid var(--app-frame-border);
+  border-top: 0px solid transparent;
 }
 .theme-midnight .prompt_fe70ca {
-  border: 1px solid var(--border-normal);
+  border: 0px solid transparent;
 }
 .theme-midnight .navButtons_fe70ca {
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .termsFieldBody_fe70ca {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 
 .theme-midnight .premiumBrandRefreshBackground_e5f3a9 {
@@ -393,7 +398,7 @@
 }
 
 .theme-midnight .scroller__01c8c {
-  border-right: 1px solid var(--border-subtle);
+  border-right: 0px solid transparent;
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .voters__01c8c {
@@ -417,7 +422,7 @@
 }
 
 .theme-midnight .relative__8a7fc {
-  border-bottom: 1px solid var(--app-frame-border);
+  border-bottom: 0px solid transparent;
 }
 .theme-midnight .relative__8a7fc,
 .theme-midnight .scroller__23746,
@@ -437,7 +442,7 @@
 }
 .theme-midnight .body__00943 .section__00943 {
   background-color: var(--background-base-lowest);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .addFriendInputWrapper__72ba7:not(:focus-within) {
   border-color: var(--input-border);
@@ -455,11 +460,11 @@
 .theme-midnight .page__5e434:empty,
 .theme-midnight .page__5e434:has(.loader__5e434, > div:empty:only-child),
 .theme-midnight .noChannel__01d5c {
-  border-top: 1px solid var(--app-frame-border);
+  border-top: 0px solid transparent;
 }
 
 .theme-midnight .container_ad5cdf {
-  border-top: 1px solid var(--app-frame-border);
+  border-top: 0px solid transparent;
 }
 .theme-midnight .scroller__4a84a,
 .theme-midnight .scroller_fb04e1 {
@@ -480,14 +485,14 @@
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .card_b5493b {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .card_b5493b .cardDescription__1f069 {
   background-image: linear-gradient(to bottom, var(--background-surface-high) 50%, hsl(var(--primary-800-hsl)/0.75) 80%);
 }
 .theme-midnight .container__0f226 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .container__0f226 .textContainer__0f226 {
@@ -512,14 +517,14 @@
 }
 
 .theme-midnight .autocomplete__13533 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .autocomplete__13533 .wrapper__14245 {
   background-color: var(--background-base-low);
 }
 .theme-midnight .autocomplete__13533 .wrapper__4e6ce {
-  border-right: 1px solid var(--border-muted);
+  border-right: 0px solid transparent;
 }
 
 .theme-midnight .createOverwritePopout__0ab2c {
@@ -560,7 +565,7 @@
 }
 .theme-midnight .guildSection_d5cd2d {
   background-color: var(--background-base-low);
-  border-top: 1px solid var(--border-muted);
+  border-top: 0px solid transparent;
 }
 
 .theme-midnight .container_fc561d {
@@ -599,7 +604,7 @@
 }
 
 .theme-midnight .quickSelectPopout_ebaca5 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .quickSelectPopoutOption_ebaca5:hover {
@@ -632,7 +637,7 @@
 }
 
 .theme-midnight .sidebarRegionScroller__23e6b {
-  border-right: 1px solid var(--app-frame-border);
+  border-right: 0px solid transparent;
 }
 
 .theme-midnight .contentRegion__23e6b,
@@ -649,24 +654,24 @@
 }
 .theme-midnight .accountProfileCard__1fed1 {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .accountProfileCard__1fed1 .background__1fed1 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .accountProfileCard__1fed1 .background__1fed1 .fieldList__1fed1 {
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .emptyContainer_de8069 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .card__5cea9 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
 }
 .theme-midnight .card__5cea9 .header__5cea9 {
-  border-bottom: 1px solid var(--border-muted);
+  border-bottom: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .box_f8c98c {
@@ -674,36 +679,36 @@
   background-color: var(--background-base-low);
 }
 .theme-midnight .headerV2__50a54 {
-  border-bottom: 1px solid var(--border-muted);
+  border-bottom: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .authedAppV2__50a54 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-lower);
 }
 .theme-midnight .connection_c7f964 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .connection_c7f964 .metadataContainer_c7f964,
 .theme-midnight .connection_c7f964 .integrationWrapper_c7f964 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .expandedProgressBarContainerSettingsPage_a61c56,
 .theme-midnight .giftCard_a45ed3 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .perkCard_b62c4e {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .rowBottomBorder_e4ef5c {
   border-color: var(--border-subtle);
 }
 .theme-midnight .appliedBoostContainer_ceb06a {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .appliedBoostContainer_ceb06a .boostContainerSeparator_ceb06a {
@@ -713,7 +718,7 @@
   background-color: var(--background-base-low);
 }
 .theme-midnight .appliedBoostContainer_ceb06a .guildContainer__5dba5:not(.recommendedServerCard__51537) {
-  border-bottom: 1px solid var(--border-muted);
+  border-bottom: 0px solid transparent;
 }
 .theme-midnight .wave__8e08c {
   fill: var(--background-base-lowest);
@@ -722,10 +727,10 @@
   background-color: var(--background-base-low);
 }
 .theme-midnight .guildContainer__5dba5.recommendedServerCard__51537 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
 }
 .theme-midnight .wrapper__5b98e {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .wrapper__5b98e .list__5b98e {
@@ -735,15 +740,15 @@
   border-color: var(--border-subtle);
 }
 .theme-midnight .detailsBlock_e335a7 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .accountCreditsContainer__94f72 .accountCreditRow__94f72:not(:last-child) {
-  border-bottom: 1px solid var(--border-muted);
+  border-bottom: 0px solid transparent;
 }
 .theme-midnight .fractionalPremiumAccountCredit__94f72,
 .theme-midnight .premiumSubscriptionAccountCredit__94f72 {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .fractionalTimeRemainingRow__94f72 {
@@ -763,7 +768,7 @@
 }
 .theme-midnight .container_a1d343 {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .preview__5d148 {
   background-color: var(--background-base-lowest);
@@ -792,11 +797,11 @@
 }
 .theme-midnight .notDetected_cc46f0 {
   background-color: var(--background-surface-high);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .game_cc46f0 {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .avatarUploaderInnerSquareDisabled_e04502 {
   background-color: var(--background-surface-high);
@@ -825,7 +830,7 @@
 }
 .theme-midnight .header__99871 {
   background-color: var(--background-base-low);
-  border-bottom: 1px solid var(--border-muted);
+  border-bottom: 0px solid transparent;
 }
 .theme-midnight .container__99871 {
   background-color: var(--background-base-lower);
@@ -846,17 +851,17 @@
 .theme-midnight .notice_a9b452,
 .theme-midnight .review_a9b452 {
   background-color: var(--background-base-low);
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .onboardingStepContainer__28e57 {
-  border-left: 1px solid var(--border-subtle);
-  border-right: 1px solid var(--border-subtle);
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
 }
 .theme-midnight .onboardingStepContainer__28e57:last-child {
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 0px solid transparent;
 }
 .theme-midnight .container__5d756 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .example__5d756 {
   background-color: var(--background-surface-high);
@@ -872,21 +877,21 @@
 .theme-midnight .howItWorksContainer_dd30dc,
 .theme-midnight .creatorBenefitCard__02e4c,
 .theme-midnight .guildCard__2485e {
-  border: 1px solid var(--border-muted);
+  border: 0px solid transparent;
   background-color: var(--background-surface-high);
 }
 .theme-midnight .descriptionBox__981f7 {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
   background-color: var(--background-base-low);
 }
 .theme-midnight .settingCard__1a4ef {
-  border: 1px solid var(--border-subtle);
+  border: 0px solid transparent;
 }
 .theme-midnight .settingCard__1a4ef.active__1a4ef {
   background-color: var(--background-base-low);
 }
 .theme-midnight .cardFolder__1a4ef:not(:empty) {
-  border-top: 1px solid var(--border-subtle);
+  border-top: 0px solid transparent;
 }
 .theme-midnight .scroller__53543 {
   background-color: var(--background-base-lowest);

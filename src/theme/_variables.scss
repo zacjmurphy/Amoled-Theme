@@ -1,4 +1,11 @@
 .theme-midnight {
+    --app-frame-border: transparent !important;
+
+    --divider-muted: transparent !important;
+    --divider-normal: transparent !important;
+    --divider-strong: transparent !important;
+    --divider-subtle: transparent !important;
+
     --message-background-hover: var(--opacity-8) !important;
 
     --background-mod-muted: var(--opacity-4) !important;
