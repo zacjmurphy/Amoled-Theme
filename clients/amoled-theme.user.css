@@ -11,6 +11,13 @@
 	@import url("https://cdn.jsdelivr.net/gh/zacjmurphy/Amoled-Theme@main/src/amoled-theme.css");
 
 	.theme-midnight {
+	  --border-muted: transparent !important;
+	  --border-subtle: transparent !important;
+	  --border-strong: transparent !important;
+	  --border-normal: transparent !important;
+	  --input-border-hover: transparent !important;
+	  --input-border-active: transparent !important;
+	  --input-border-default: transparent !important;
 	  --app-frame-border: transparent !important;
 	  --divider-muted: transparent !important;
 	  --divider-normal: transparent !important;
@@ -180,6 +187,47 @@
 	.theme-midnight .bumpBox_cacd02 {
 	  background-color: var(--background-base-low);
 	  border: 0px solid transparent;
+	}
+	.theme-midnight .footer__432f4,
+	.theme-midnight .searchBar_e6b769,
+	.theme-midnight .sectionDivider_e6b769,
+	.theme-midnight .guildSeparator__252b6,
+	.theme-midnight .sectionDivider__629e4,
+	.theme-midnight .nowPlayingColumn__133bf,
+	.theme-midnight .backForwardButtons__63abb,
+	.theme-midnight .sidebarResizeHandle__5e434,
+	.theme-midnight [aria-label="Open GIF picker"],
+	.theme-midnight [aria-label="Invite to Server"],
+	.theme-midnight [aria-label="Show User Profile"],
+	.theme-midnight [aria-label="Hide User Profile"],
+	.theme-midnight [aria-label="Invite to Channel"],
+	.theme-midnight [aria-label="Open sticker picker"],
+	.theme-midnight .buttonContainer_e6e74f.app-launcher-entrypoint,
+	.theme-midnight .trailing_c38106 a[href="https://support.discord.com"] {
+	  display: none !important;
+	}
+	.theme-midnight .circleIconButton__5bc7e,
+	.theme-midnight .childWrapperNoHoverBg__6e9f8 {
+	  background-color: transparent !important;
+	  color: white !important;
+	}
+	.theme-midnight th,
+	.theme-midnight td,
+	.theme-midnight tr,
+	.theme-midnight li,
+	.theme-midnight h1,
+	.theme-midnight h2,
+	.theme-midnight h3,
+	.theme-midnight h4,
+	.theme-midnight h5,
+	.theme-midnight h6,
+	.theme-midnight hr,
+	.theme-midnight code,
+	.theme-midnight table,
+	.theme-midnight input,
+	.theme-midnight button,
+	.theme-midnight [class*=react] {
+	  border: 0px solid transparent !important;
 	}
 	
 	.theme-midnight .container_db0ccb,
