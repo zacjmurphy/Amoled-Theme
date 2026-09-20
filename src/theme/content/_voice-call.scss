@@ -1,0 +1,43 @@
+.theme-midnight {
+    .videoWrapper__2f4f7:not(.wrapper__48b20),
+    .streamHidden_c30e20,
+    .streamPreview__2f4f7 {
+        background-color: var(--background-base-low);
+    }
+    .participantsButton__211d1 {
+        background-color: var(--background-surface-higher);
+        &:hover {
+            background-color: var(--background-surface-high);
+        }
+    }
+
+    // DM call resize dragger
+    .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592 {
+        border-bottom: 1px solid var(--border-subtle);
+    }
+
+    // Stages
+    .container__664ff {
+        border-left: 1px solid var(--app-frame-border);
+        background-color: var(--background-base-lowest);
+    }
+    .background__506d9 {
+        background-color: var(--background-base-low);
+    }
+
+    // We need to use raw tokens here because they override the default theme to dark
+    // --neutral-95 is --background-base-low
+    // --opacity-12 is --interactive-background-hover
+    // --opacity-24 is --border-subtle
+    .container__6b38f.pulse__6b38f {
+        background-color: var(--neutral-95);
+        border: 1px solid var(--opacity-24);
+
+        &:hover {
+            background-color: var(--opacity-12);
+        }
+    }
+    .tileContainer__71eb2:hover {
+        background-color: var(--opacity-12);
+    }
+}

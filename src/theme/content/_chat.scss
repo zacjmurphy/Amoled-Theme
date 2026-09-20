@@ -1,0 +1,91 @@
+.theme-midnight {
+    // Content Loading
+    .wrapper_fc8177,
+    .wrapper_d852db {
+        background: var(--background-base-lowest);
+    }
+
+    .chatContent_f75fb0,
+    .container__34c2c,
+    .container_fb64c9 {
+        background: var(--background-base-lowest);
+    }
+
+    .emptyState__7641b {
+        border-left: 1px solid var(--app-frame-border);
+    }
+
+    .wrapper_f7ecac {
+        background-color: var(--background-surface-high);
+    }
+
+    .channelTextArea_f75fb0 {
+        background: var(--background-base-low);
+    }
+    .channelTextArea__74017:not(.inlineContainer__74017) .themedBackground__74017 {
+        background: var(--background-base-low);
+    }
+    .bannerContainer__362cd {
+        background: var(--background-base-low);
+    }
+
+    .formWithLoadedChatInput_f75fb0:before,
+    .chatGradient__36d07 {
+        background: linear-gradient(to bottom, transparent, var(--background-base-lowest) 100%);
+    }
+    .chatTypingGradientAtBottom__36d07 {
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--background-base-lowest) 8px,
+            var(--background-base-lowest) 100%
+        );
+    }
+    .chatTypingGradientNotAtBottom__36d07 {
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--background-base-lowest) 72px,
+            var(--background-base-lowest) 100%
+        );
+    }
+
+    // Commands
+    .optionPill__1464f {
+        border: 1px solid var(--border-muted);
+        background-color: var(--background-surface-high);
+        .optionPillKey__1464f {
+            background-color: var(--background-base-lower);
+        }
+    }
+
+    .stackedBars__74017 {
+        background: var(--background-surface-high);
+    }
+
+    // AutoMod
+    .embedCard__44c9a {
+        border: 1px solid var(--border-subtle);
+        border-bottom: none;
+        background-color: var(--background-surface-high);
+    }
+    .footerContainer__44492 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-lower);
+    }
+
+    .embedCard_b99f57 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-surface-high);
+        .cardFooter_b99f57 {
+            border-top: 1px solid var(--border-subtle);
+            background-color: var(--background-base-low);
+        }
+    }
+
+    // Channel Followers Publish CTA
+    .bumpBox_cacd02 {
+        background-color: var(--background-base-low);
+        border: 1px solid var(--border-muted);
+    }
+}

@@ -1,0 +1,30 @@
+.theme-midnight {
+    // Browse Channels
+    .header__0b563 {
+        background-color: var(--background-base-lowest) !important;
+    }
+    .pageBody__41ed7 {
+        background-color: var(--background-base-lowest);
+    }
+    .container__0b563 {
+        background-color: var(--background-base-lowest) !important;
+    }
+    .channelRow_e4503a:hover:not(.disabled_e4503a) {
+        background-color: var(--opacity-12) !important;
+    }
+    .container_bc0d35 {
+        background-color: var(--background-base-low);
+        border: 1px solid var(--border-subtle);
+    }
+
+    // Customize
+    .prompt__5d7c9 {
+        background-color: var(--background-base-low);
+    }
+    .emptyPage__5d7c9 {
+        background-color: var(--background-base-lowest);
+    }
+    .profileCard__5d7c9 {
+        border: 1px solid var(--border-subtle);
+    }
+}
