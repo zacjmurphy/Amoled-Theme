@@ -1,0 +1,53 @@
+.theme-midnight {
+    // Delete Specific Elements
+    .footer__432f4,
+    .searchBar_e6b769,
+    .sectionDivider_e6b769,
+    .guildSeparator__252b6,
+    .sectionDivider__629e4,
+    .nowPlayingColumn__133bf,
+    .backForwardButtons__63abb,
+    .sidebarResizeHandle__5e434,
+    [aria-label="Open GIF picker"],
+    [aria-label="Invite to Server"],
+    [aria-label="Show User Profile"],
+    [aria-label="Hide User Profile"],
+    [aria-label="Invite to Channel"],
+    [aria-label="Open sticker picker"],
+    .buttonContainer_e6e74f.app-launcher-entrypoint,
+    .trailing_c38106 a[href="https://support.discord.com"] {
+        display: none !important;
+    }
+
+    // Remove New Channel Badge
+    .channelInfo_c69b6d .eyebrow_cf4812.textBadge__463b7.base__463b7.baseShapeRound__463b7[style="background-color: var(--badge-background-brand);"] {
+        display: none !important;
+    }
+
+    // Improve Home Button & Discovery Buttons
+    .circleIconButton__5bc7e,
+    .childWrapperNoHoverBg__6e9f8 {
+        background-color: transparent !important;
+        color: white !important;
+    }
+
+    // Remove Borders
+    th,
+    td,
+    tr,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    code,
+    table,
+    input,
+    button,
+    [class*="react"] {
+        border: 0px solid transparent !important;
+    }
+}
