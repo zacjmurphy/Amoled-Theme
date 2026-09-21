@@ -18,5 +18,11 @@
   "liveSassCompile.settings.includeItems": [
     "/dev.scss",
     "/src/source.scss",
+
+    // Custom
+    "/modules/custom/private.scss",
+    "/modules/custom/server.scss",
+    "/modules/custom/user.scss",
+    "/modules/custom/tags.scss",
   ]
 }
