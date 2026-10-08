@@ -2,4 +2,9 @@
     .authBox__921c5 {
         background-color: var(--background-base-lowest);
     }
+
+    [data-nav-anchor-key="account_info_email_setting"]:has(button[data-mana-component="text-button"]:not([aria-label^="Hide"])) [class*="stack_"]>div[class*="text-md/medium"],
+    [data-nav-anchor-key="account_info_phone_setting"]:has(button[data-mana-component="text-button"]:not([aria-label^="Hide"])) [class*="stack_"]>div[class*="text-md/medium"] {
+        -webkit-text-security: disc;
+    }
 }
